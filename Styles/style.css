@@ -20,7 +20,7 @@
     font-size: 15px;
     background-color: #B68C5A;
    }
-   /* header banner section */
+   /*------------------------------------------------- header banner section */
    .header-banner{
     background-image: url("images/banner.png");
     background-repeat: no-repeat;
@@ -50,15 +50,21 @@
     border-radius: 8px;
     padding-left: 20px;
 }
-/* --------------------------------Main section starets----------------------------------------- */
-/* legal section */
+/* ----------------------------------------Main section starts----------------------------- */
+
+
+/*------------------------------------------ legal section */
+.legal-sec-container{
+    height: 900px;
+    margin-left: 298px;
+    margin-right: 266px;
+}
 .legal-sec-text{
     color: #414040;
     font-weight: 800;
     font-size: 40px;
 }
 .legal-sec-grid{
-   
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
@@ -68,8 +74,15 @@
 #special-grid-box{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+   
+/* -------------------------------------------img-slider-sec */
 
-/* contact us */
+.img-slider-sec{
+    width: 804px;
+    height: 626px;
+    margin-left: 239px;
+}
+/*----------------------------------------------- contact us */
 
 .grid-form input[type=text]{
     width: 482px;
@@ -97,3 +110,33 @@ textarea{
     border: none;
 
 }
+/*================================================= Footer starts here ============================*/
+.footer-body{
+    background-color: black;
+    color: #FFFFFF;
+}
+.footer-items{
+    padding: 120px 168px 81px 147px;
+    
+}
+.footer-ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.subscribe input[type=text]{
+    width: 156px;
+    height: 26px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    padding-left: 20px;
+    border: none;
+}
+.submit-icon img{
+    background-color: #B68C5A;
+    width: 53px;
+    height: 53px;
+}
+    
+/* ======================================Footer Added===================================== */
