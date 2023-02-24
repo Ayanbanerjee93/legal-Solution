@@ -1,0 +1,30 @@
+.nav-heading {
+    color: #414040;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'EB Garamond';
+}
+.nav-list > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .nav-arrow-img{
+    height:15px ;
+    width: 7.5px;
+  }
+   .nav-btn{
+    width: 186px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #B68C5A;
+   }
+   .head-sec{
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    background-color: aliceblue;
+}
